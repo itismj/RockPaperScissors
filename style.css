@@ -1,0 +1,48 @@
+
+body {
+    background-color:  #00539C;
+    text-align: center;
+}
+
+.container {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 200px;
+    background-color: #EEA47F;
+}
+
+.details {
+    display: inline;
+}
+
+.details h2 span {
+    display: block;
+
+}
+
+button {
+  
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 4px;
+    font-size: 14px;
+    height: 30px;
+    padding: 0px 15px;
+    text-shadow: rgb(0 0 0 / 25%) 0px 3px 8px;
+    background: linear-gradient(92.88deg, rgb(69, 94, 181) 9.16%, rgb(86, 67, 204) 43.89%, rgb(103, 63, 215) 64.72%);
+    transition: all 0.5s ease 0s;
+
+}
+button:hover {
+    box-shadow: rgba(246, 245, 255, 0.5) 0px 1px 40px;
+        transition: all 0.1s ease 0s;
+}
+
+h2 {
+    color: rgb(62, 16, 201);
+}
